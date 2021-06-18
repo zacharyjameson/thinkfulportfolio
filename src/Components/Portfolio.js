@@ -57,41 +57,65 @@ class Portfolio extends Component {
                 />
               </a>
               <div className="projectlinks">
+                <p>
+                  The purpose of Moviedex is to help users decide on what movie
+                  to watch, from a list of saved movies. Moviedex is a React web
+                  application that allows users to call a public movie API,{" "}
+                  <a
+                    href="https://www.omdbapi.com/"
+                    target="_blank"
+                    title="OMDb API"
+                    rel="noreferrer"
+                  >
+                    OMDb
+                  </a>
+                  , save/delete those movies to/from Moviedex's server, and then
+                  click a button to randomly generate one of those movies as the
+                  selected movie to watch.
+                </p>
                 <div className="projectlinksitem">
-                  <p>
-                    Repos <br />
-                    <a
-                      href="https://github.com/zacharyjameson/moviedex-client"
-                      target="_blank"
-                      title="Moviedex Client Repo"
-                      rel="noreferrer"
-                    >
-                      Client
-                    </a>{" "}
-                    <br />
-                    <a
-                      href="https://github.com/zacharyjameson/moviedex-server"
-                      target="_blank"
-                      title="Moviedex Server Repo"
-                      rel="noreferrer"
-                    >
-                      Server
-                    </a>
-                  </p>
+                  <div>
+                    <p>
+                      Repos <br />
+                      <a
+                        href="https://github.com/zacharyjameson/moviedex-client"
+                        target="_blank"
+                        title="Moviedex Client Repo"
+                        rel="noreferrer"
+                      >
+                        Client
+                      </a>{" "}
+                      <br />
+                      <a
+                        href="https://github.com/zacharyjameson/moviedex-server"
+                        target="_blank"
+                        title="Moviedex Server Repo"
+                        rel="noreferrer"
+                      >
+                        Server
+                      </a>
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      Demo <br />
+                      <a
+                        href="https://moviedex-client.vercel.app/"
+                        target="_blank"
+                        title="Moviedex Demo"
+                        rel="noreferrer"
+                      >
+                        Moviedex
+                      </a>
+                    </p>
+                  </div>
                 </div>
-                <div className="projectlinksitem">
-                  <p>
-                    Demo <br />
-                    <a
-                      href="https://moviedex-client.vercel.app/"
-                      target="_blank"
-                      title="Moviedex Demo"
-                      rel="noreferrer"
-                    >
-                      Moviedex
-                    </a>
-                  </p>
-                </div>
+
+                <p>
+                  Skills Used: <br />
+                  React, JavaScript, JSX, PostgreSQL, Node.js, Express, Vercel,
+                  Heroku, JIRA and HTML/CSS
+                </p>
               </div>
             </div>
           </li>
@@ -113,41 +137,66 @@ class Portfolio extends Component {
                 />
               </a>
               <div className="projectlinks">
+                <p>
+                  The purpose of Locksley Finance is to give users a simple tool
+                  to search, track and stay up to date on a handful of their
+                  favorite stocks they'd like to keep tabs on. Locksley Finance
+                  is a React web application that allows users to call a public
+                  stock API,{" "}
+                  <a
+                    href="https://twelvedata.com/"
+                    target="_blank"
+                    title="twelvedata"
+                    rel="noreferrer"
+                  >
+                    twelvedata
+                  </a>
+                  , Users may search for stocks by ticker symbol, save/remove
+                  them to/from their watchlist as well as refresh all of the
+                  data for the stocks in their watchlist in order to get the
+                  latest prices and information.
+                </p>
                 <div className="projectlinksitem">
-                  <p>
-                    Repos <br />
-                    <a
-                      href="https://github.com/zacharyjameson/locksley-client"
-                      target="_blank"
-                      title="Locksley Client Repo"
-                      rel="noreferrer"
-                    >
-                      Client
-                    </a>{" "}
-                    <br />
-                    <a
-                      href="https://github.com/zacharyjameson/locksley-server"
-                      target="_blank"
-                      title="Locksley Server Repo"
-                      rel="noreferrer"
-                    >
-                      Server
-                    </a>
-                  </p>
+                  <div>
+                    <p>
+                      Repos <br />
+                      <a
+                        href="https://github.com/zacharyjameson/locksley-client"
+                        target="_blank"
+                        title="Locksley Client Repo"
+                        rel="noreferrer"
+                      >
+                        Client
+                      </a>{" "}
+                      <br />
+                      <a
+                        href="https://github.com/zacharyjameson/locksley-server"
+                        target="_blank"
+                        title="Locksley Server Repo"
+                        rel="noreferrer"
+                      >
+                        Server
+                      </a>
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      Demo <br />
+                      <a
+                        href="https://locksley.vercel.app/"
+                        target="_blank"
+                        title="Moviedex Demo"
+                        rel="noreferrer"
+                      >
+                        Locksley Finance
+                      </a>
+                    </p>
+                  </div>
                 </div>
-                <div className="projectlinksitem">
-                  <p>
-                    Demo <br />
-                    <a
-                      href="https://locksley.vercel.app/"
-                      target="_blank"
-                      title="Moviedex Demo"
-                      rel="noreferrer"
-                    >
-                      Locksley Finance
-                    </a>
-                  </p>
-                </div>
+                <p>
+                  Skills Used: <br /> React, JavaScript, Express, PostreSQL,
+                  Node.js, Vercel, Heroku, JIRA and HTML/CSS.
+                </p>
               </div>
             </div>
           </li>
@@ -168,27 +217,52 @@ class Portfolio extends Component {
 
               <div className="projectlinks">
                 <p>
-                  Repos <br />
+                  Simple web application utilizing public API,{" "}
                   <a
-                    href="https://github.com/zacharyjameson/weathertop"
+                    href="https://openweathermap.org/api"
                     target="_blank"
-                    title="Weathertop Client Repo"
+                    title="OpenWeather"
                     rel="noreferrer"
                   >
-                    Client
-                  </a>{" "}
-                  <br />
+                    OpenWeather
+                  </a>,{" "}
+                  to find the current weather, 'feels like' temperature as well
+                  as humidity level in a queried city. Allows users to return
+                  data in imperial or metric systems; but defaults to kelvin if
+                  no option is selected.
                 </p>
+                <div className="projectlinksitem">
+                  <div>
+                    <p>
+                      Repos <br />
+                      <a
+                        href="https://github.com/zacharyjameson/weathertop"
+                        target="_blank"
+                        title="Weathertop Client Repo"
+                        rel="noreferrer"
+                      >
+                        Client
+                      </a>{" "}
+                      <br />
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      Demo <br />
+                      <a
+                        href="https://zacharyjameson.github.io/weathertop"
+                        target="_blank"
+                        title="Weathertop Demo"
+                        rel="noreferrer"
+                      >
+                        Weathertop
+                      </a>
+                    </p>
+                  </div>
+                </div>
                 <p>
-                  Demo <br />
-                  <a
-                    href="https://zacharyjameson.github.io/weathertop"
-                    target="_blank"
-                    title="Weathertop Demo"
-                    rel="noreferrer"
-                  >
-                    Weathertop
-                  </a>
+                  Skills Used: <br />
+                  JavaScript, React, JSX, HTML/CSS, and GH Pages
                 </p>
               </div>
             </div>
@@ -210,26 +284,41 @@ class Portfolio extends Component {
 
               <div className="projectlinks">
                 <p>
-                  Repos <br />
-                  <a
-                    href="https://github.com/zacharyjameson/musiciandex"
-                    target="_blank"
-                    title="Musiciandex Client Repo"
-                    rel="noreferrer"
-                  >
-                    Client
-                  </a>
+                  Search for a musician/band to view their upcoming shows, top
+                  albums and a brief bio about them. Built using JavaScript, Web
+                  API's, HTML, CSS.
                 </p>
+                <div className="projectlinksitem">
+                  <div>
+                    <p>
+                      Repos <br />
+                      <a
+                        href="https://github.com/zacharyjameson/musiciandex"
+                        target="_blank"
+                        title="Musiciandex Client Repo"
+                        rel="noreferrer"
+                      >
+                        Client
+                      </a>
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      Demo <br />
+                      <a
+                        href="https://zacharyjameson.github.io/musiciandex/"
+                        target="_blank"
+                        title="Musiciandex Demo"
+                        rel="noreferrer"
+                      >
+                        Musiciandex
+                      </a>
+                    </p>
+                  </div>
+                </div>
                 <p>
-                  Demo <br />
-                  <a
-                    href="https://zacharyjameson.github.io/musiciandex/"
-                    target="_blank"
-                    title="Musiciandex Demo"
-                    rel="noreferrer"
-                  >
-                    Musiciandex
-                  </a>
+                  Skills Used: <br />
+                  JavaScript, jQuery, HTML/CSS and JIRA
                 </p>
               </div>
             </div>
@@ -246,26 +335,40 @@ class Portfolio extends Component {
               </a>
               <div className="projectlinks">
                 <p>
-                  Repos <br />
-                  <a
-                    href="https://github.com/zacharyjameson/quiz-app"
-                    target="_blank"
-                    rel="noreferrer"
-                    title="LOTR Quiz App Repo"
-                  >
-                    Client
-                  </a>
+                  A meme-based quiz app going over the trials, tribulations and
+                  overall tomfoolery in Middle Earth. Built using HTML, CSS,
+                  JavaScript, and jQuery.
                 </p>
+                <div className="projectlinksitem">
+                  <div>
+                    <p>
+                      Repos <br />
+                      <a
+                        href="https://github.com/zacharyjameson/quiz-app"
+                        target="_blank"
+                        rel="noreferrer"
+                        title="LOTR Quiz App Repo"
+                      >
+                        Client
+                      </a>
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      Demo <br />
+                      <a
+                        href="https://zacharyjameson.github.io/quiz-app/"
+                        target="_blank"
+                        rel="noreferrer"
+                        title="LOTR Quiz Demo"
+                      >
+                        LOTRquiz
+                      </a>
+                    </p>
+                  </div>
+                </div>
                 <p>
-                  Demo <br />
-                  <a
-                    href="https://zacharyjameson.github.io/quiz-app/"
-                    target="_blank"
-                    rel="noreferrer"
-                    title="LOTR Quiz Demo"
-                  >
-                    LOTRquiz
-                  </a>
+                  Skills Used: <br /> JavaScript, jQuery, HTML/CSS, JIRA
                 </p>
               </div>
             </div>
@@ -282,35 +385,59 @@ class Portfolio extends Component {
               </a>
               <div className="projectlinks">
                 <p>
-                  Repos <br />
-                  <a
-                    href="https://github.com/zacharyjameson/noteful"
-                    target="_blank"
-                    rel="noreferrer"
-                    title="Noteful Client Repo"
-                  >
-                    Client
-                  </a>
-                  <br />
+                  Full stack notes application that allows users to create
+                  folders that contain various notes included in a given folder.
+                  A server and database was built as the backend as well, which
+                  can be viewed{" "}
                   <a
                     href="https://github.com/zacharyjameson/noteful-server"
                     target="_blank"
-                    rel="noreferrer"
-                    title="Noteful Server Repo"
                   >
-                    Server
+                    here
                   </a>
+                  .
                 </p>
+                <div className="projectlinksitem">
+                  <div>
+                    <p>
+                      Repos <br />
+                      <a
+                        href="https://github.com/zacharyjameson/noteful"
+                        target="_blank"
+                        rel="noreferrer"
+                        title="Noteful Client Repo"
+                      >
+                        Client
+                      </a>
+                      <br />
+                      <a
+                        href="https://github.com/zacharyjameson/noteful-server"
+                        target="_blank"
+                        rel="noreferrer"
+                        title="Noteful Server Repo"
+                      >
+                        Server
+                      </a>
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      Demo <br />
+                      <a
+                        href="https://noteful-inky.vercel.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                        title="Noteful Demo"
+                      >
+                        Noteful
+                      </a>
+                    </p>
+                  </div>
+                </div>
                 <p>
-                  Demo <br />
-                  <a
-                    href="https://noteful-inky.vercel.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                    title="Noteful Demo"
-                  >
-                    Noteful
-                  </a>
+                  Skills Used: <br />
+                  React, JSX, JavaScript Heroku, Vercel, PostgreSQL, Node.js,
+                  Express, HTML/CSS, and JIRA.
                 </p>
               </div>
             </div>
