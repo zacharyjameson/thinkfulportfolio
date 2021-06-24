@@ -25,7 +25,7 @@ function Navbar() {
         </Link>
       </div>
       <nav className="navBar">
-        <button onClick={handleToggle}>
+        <div className="navButton" onClick={handleToggle}>
           {navbarOpen ? (
             <MdClose
               style={{ color: "white", width: "40px", height: "40px" }}
@@ -33,7 +33,7 @@ function Navbar() {
           ) : (
             <FiMenu style={{ color: "white", width: "40px", height: "40px" }} />
           )}
-        </button>
+        </div>
         <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
           <li>
             <Link
