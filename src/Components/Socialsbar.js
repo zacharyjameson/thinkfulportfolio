@@ -58,13 +58,24 @@ class Socialsbar extends Component {
               title="Follow on Instagram"
               className="instagram"
             >
-              <FontAwesomeIcon size="2x" icon={faInstagram} className="icon" id="instagram" />
+              <FontAwesomeIcon
+                size="2x"
+                icon={faInstagram}
+                className="icon"
+                id="instagram"
+              />
             </a>
           </li>
-          <li>
-            <Link to="/contactme" className="contactme">
-              <FontAwesomeIcon size="2x" icon={faEnvelope} />
-            </Link>
+          <li className="socialItem">
+              <Link to="/contactme" className="contactme">
+                <div hidden>Hidden</div>
+                <FontAwesomeIcon
+                  size="2x"
+                  icon={faEnvelope}
+                  className="socialsemailme"
+                  id="emailmesocials"
+                />
+              </Link>
           </li>
         </ul>
       </div>

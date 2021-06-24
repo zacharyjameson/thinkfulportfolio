@@ -30,7 +30,7 @@ class Portfolio extends Component {
           </ul>
           <p>
             From helping you decide what movie to watch next, finding what the
-            weather's like around the world or getting some up to date
+            weather's like around the world, or getting some up to date
             information on how your favorite musician/band is doing and when
             they'll be coming to town next, check out a select few of my latest
             web development portfolio projects utilizing React.JS, Node.JS, JSX,
@@ -225,11 +225,11 @@ class Portfolio extends Component {
                     rel="noreferrer"
                   >
                     OpenWeather
-                  </a>,{" "}
-                  to find the current weather, 'feels like' temperature as well
-                  as humidity level in a queried city. Allows users to return
-                  data in imperial or metric systems; but defaults to kelvin if
-                  no option is selected.
+                  </a>
+                  , to find the current weather, 'feels like' temperature as
+                  well as the humidity level in a queried city. Allows users to
+                  return data in imperial or metric systems, but defaults to
+                  kelvin if no option is selected.
                 </p>
                 <div className="projectlinksitem">
                   <div>
@@ -285,8 +285,8 @@ class Portfolio extends Component {
               <div className="projectlinks">
                 <p>
                   Search for a musician/band to view their upcoming shows, top
-                  albums and a brief bio about them. Built using JavaScript, Web
-                  API's, HTML, CSS.
+                  albums and, a brief bio about them. Built using JavaScript,
+                  Web APIs, HTML, CSS.
                 </p>
                 <div className="projectlinksitem">
                   <div>
@@ -335,7 +335,7 @@ class Portfolio extends Component {
               </a>
               <div className="projectlinks">
                 <p>
-                  A meme-based quiz app going over the trials, tribulations and
+                  A meme-based quiz app going over the trials, tribulations and,
                   overall tomfoolery in Middle Earth. Built using HTML, CSS,
                   JavaScript, and jQuery.
                 </p>
@@ -385,9 +385,9 @@ class Portfolio extends Component {
               </a>
               <div className="projectlinks">
                 <p>
-                  Full stack notes application that allows users to create
+                  Full-stack notes application that allows users to create
                   folders that contain various notes included in a given folder.
-                  A server and database was built as the backend as well, which
+                  A server and database were built as the backend as well, which
                   can be viewed{" "}
                   <a
                     href="https://github.com/zacharyjameson/noteful-server"
