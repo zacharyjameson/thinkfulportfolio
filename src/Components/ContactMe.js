@@ -50,6 +50,9 @@ class Contact extends Component {
                 Reset
               </button>
             </div>
+            <div className="contactemail">
+              <p>Email: audiohobbit@gmail.com</p>
+            </div>
           </form>
           <div className="michaelscott">
             <p>
